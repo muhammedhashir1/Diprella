@@ -1,0 +1,97 @@
+.create_container {
+  grid-area: create;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #00ad7e;
+  font-family: Poppins, "sans-serif";
+  font-size: 44px;
+  font-weight: 700;
+  padding: 10px;
+}
+.create_logo {
+  padding: 10px;
+}
+.create_logo span {
+  margin: auto;
+}
+.create_logo .logo {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+.create_logo .logo:hover {
+  background-color: #00ad7e;
+  border: 1px solid #fff;
+}
+.registration {
+  padding: 20px 20px;
+  color: #717473;
+  font-family: Poppins, "sans-serif";
+  font-size: 16px;
+  font-weight: 500;
+}
+.create_inputFields {
+  display: inline-grid;
+}
+.create_inputFields .inputDiv {
+  display: flex;
+  align-items: center;
+  background-color: #dfdfdf;
+  border: none;
+  outline: none;
+  margin: 3px;
+  width: 440px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.inputDiv input {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.btndiv {
+  padding: 22px;
+}
+.btn {
+  font-family: Poppins, "sans-serif";
+  font-size: 12px;
+  border-radius: 25px;
+  border: 1px solid white;
+  color: white;
+  background-color: #ccc;
+  width: 50%;
+  height: 55px;
+  margin: auto;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  cursor: not-allowed;
+}
+/* .btn:hover {
+  background-color: #ccc;
+  color: #000;
+  cursor: not-allowed;
+  border: 1px solid #000;
+} */
+.btn:enabled:hover {
+  background-color: #00ad7e;
+  color: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.create_inputFields .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 10px;
+}

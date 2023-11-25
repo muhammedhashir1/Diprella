@@ -1,0 +1,65 @@
+.signup_container {
+  grid-area: welcome;
+  background: linear-gradient(#00ad7e, #9198e5);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.logoImg {
+  width: 150px;
+  height: 65px;
+  mix-blend-mode: multiply;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome_section {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-family: Poppins, "sans-serif";
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-family: Poppins, "sans-serif";
+  font-size: 12px;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
+.welcome_section .signinBtn {
+  font-family: Poppins, "sans-serif";
+  font-size: 12px;
+  border-radius: 25px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  width: 50%;
+  height: 45px;
+  margin: auto;
+  padding: 10px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+.signinBtn:hover {
+  background-color: white;
+  color: #00ad7e;
+}
