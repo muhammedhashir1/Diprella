@@ -25,6 +25,9 @@
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
+.logo {
+  cursor: pointer;
+}
 .create_logo .logo:hover {
   background-color: #00ad7e;
   border: 1px solid #fff;
