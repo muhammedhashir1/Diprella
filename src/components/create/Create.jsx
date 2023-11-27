@@ -20,8 +20,8 @@ const Create = () => {
   return (
     <div className={styles.create_container}>
       <div className={styles.create}>
-        {/** Title */}
         <div className={styles.title}>Create Account</div>
+
         {/** Social Logos */}
         <div className={styles.create_logo}>
           <span className={styles.logo}>
